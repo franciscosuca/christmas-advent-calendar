@@ -23,11 +23,11 @@ A responsive, interactive Digital Advent Calendar built for GEA to celebrate the
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/gea-advent-calendar.git
+    git clone https://github.com/franciscosuca/christmas-advent-calendar
     ```
 2.  Navigate to the project folder:
     ```bash
-    cd gea-advent-calendar
+    cd christmas-advent-calendar
     ```
 3.  Install dependencies:
     ```bash
