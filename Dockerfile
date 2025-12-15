@@ -15,6 +15,9 @@ COPY . .
 # Build the application
 RUN npm run build
 
+# Copy assets folder to dist
+COPY assets ./dist/assets
+
 # Production stage
 FROM node:18-alpine
 
