@@ -28,7 +28,7 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
-      - '--clear-volumes'
+      - '--no-volume-mounts'
 
 substitutions:
   _SERVICE_NAME: 'christmas-advent-calendar'
