@@ -28,7 +28,6 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
-      - '--no-traffic'
 
   # Step 3: Route all traffic to the newly deployed revision
   - name: 'gcr.io/cloud-builders/gcloud'
