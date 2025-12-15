@@ -15,19 +15,7 @@ steps:
       - 'push'
       - 'gcr.io/$PROJECT_ID/$_SERVICE_NAME:$SHORT_SHA'
 
-  # Step 2: Delete the old service to clear volume mounts
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args:
-      - 'run'
-      - 'services'
-      - 'delete'
-      - '$_SERVICE_NAME'
-      - '--region'
-      - '$_REGION'
-      - '--quiet'
-    onFailure: ['CONTINUE']
-
-  # Step 3: Deploy to Cloud Run (fresh)
+  # Step 2: Deploy to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
