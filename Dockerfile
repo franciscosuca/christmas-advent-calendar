@@ -12,11 +12,14 @@ RUN npm ci
 # Copy source code
 COPY . .
 
+# Optimize assets before build
+RUN npm run optimize-assets
+
 # Build the application
 RUN npm run build
 
-# Copy assets folder to dist
-COPY assets ./dist/assets
+# Ensure assets are in dist folder
+RUN mkdir -p ./dist/assets && cp -r ./assets/* ./dist/assets/
 
 # Production stage
 FROM node:18-alpine
