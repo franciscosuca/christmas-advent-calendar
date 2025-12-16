@@ -152,14 +152,28 @@ export const calendarContent: DayContent[] = [
     sourceUrl:
       "https://engage.cloud.microsoft/main/org/geacloud.onmicrosoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzE1NDkwMTY3ODY2OTgyNSJ9?trk_copy_link=V2",
   },
-  // Generates placeholders for days 17-24 pointing to local files
-  ...Array.from({ length: 8 }, (_, i) => ({
-    day: i + 17,
+  {
+    day: 17,
     type: ContentType.CUSTOM,
-    title: `December ${i + 17}`,
-    imageUrl: `/assets/days/day${i + 17}.jpg`,
+    title: "Einbürgerung of our Team Members🇩🇪",
+    imageUrl: "/assets/days/day17.png",
+    text: "Move to Germany✈️, learn a new culture🧑‍🏫 and integrate yourself in the community👥. That is what some of our team members achieve this year to positively influence📨 the future of this country that has so much to offer🇩🇪.",
+  },
+  {
+    day: 18,
+    type: ContentType.CUSTOM,
+    title: "International Food Day🌮🍕",
+    imageUrl: "/assets/days/day18.jpeg",
+    text: "This year we had the chance to celebrate again a day with super delicious food from different origins🤤. Thanks again for your effort and feeding us with the specialities from your countries🥣.",
+  },
+  // Generates placeholders for days 17-24 pointing to local files
+  ...Array.from({ length: 6 }, (_, i) => ({
+    day: i + 19,
+    type: ContentType.CUSTOM,
+    title: `December ${i + 19}`,
+    imageUrl: `/assets/days/day${i + 19}.jpg`,
     text: `A special surprise for day ${
-      i + 17
+      i + 19
     }. The magic of Christmas is in the air!`,
   })),
 ];
