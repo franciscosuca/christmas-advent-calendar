@@ -166,14 +166,21 @@ export const calendarContent: DayContent[] = [
     imageUrl: "/assets/days/day18.jpeg",
     text: "This year we had the chance to celebrate again a day with super delicious food from different origins🤤. Thanks again for your effort and feeding us with the specialities from your countries🥣.",
   },
-  // Generates placeholders for days 17-24 pointing to local files
-  ...Array.from({ length: 6 }, (_, i) => ({
-    day: i + 19,
+  {
+    day: 19,
     type: ContentType.CUSTOM,
-    title: `December ${i + 19}`,
-    imageUrl: `/assets/days/day${i + 19}.jpg`,
+    title: "La vida es un carnaval🎭🎉",
+    imageUrl: "/assets/days/day19.png",
+    text: "'Anyone who thinks life is unfair needs to know that it isn't That life is beautiful, it must be lived'. That is just a translated part of the lyrics from Carnaval song🎵 from the legend Celia Cruz. I think we actually make honor to her lyrics by celebrating the carnaval together at the office with funy customs and creating sweet memories. Let's keep it like that😁",
+  },
+  // Generates placeholders for days 17-24 pointing to local files
+  ...Array.from({ length: 5 }, (_, i) => ({
+    day: i + 20,
+    type: ContentType.CUSTOM,
+    title: `December ${i + 20}`,
+    imageUrl: `/assets/days/day${i + 20}.jpg`,
     text: `A special surprise for day ${
-      i + 19
+      i + 20
     }. The magic of Christmas is in the air!`,
   })),
 ];

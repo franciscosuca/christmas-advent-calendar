@@ -42,7 +42,7 @@ steps:
 
 substitutions:
   _SERVICE_NAME: 'christmas-advent-calendar'
-  _REGION: 'europe-west1'
+  _REGION: 'us-west1'
 
 images:
   - 'gcr.io/$PROJECT_ID/$_SERVICE_NAME:$SHORT_SHA'
