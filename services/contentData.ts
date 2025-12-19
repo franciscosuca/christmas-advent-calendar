@@ -173,14 +173,44 @@ export const calendarContent: DayContent[] = [
     imageUrl: "/assets/days/day19.png",
     text: "'Anyone who thinks life is unfair needs to know that it isn't That life is beautiful, it must be lived'. That is just a translated part of the lyrics from Carnaval song🎵 from the legend Celia Cruz. I think we actually make honor to her lyrics by celebrating the carnaval together at the office with funy customs and creating sweet memories. Let's keep it like that😁",
   },
-  // Generates placeholders for days 17-24 pointing to local files
-  ...Array.from({ length: 5 }, (_, i) => ({
-    day: i + 20,
+  {
+    day: 20,
     type: ContentType.CUSTOM,
-    title: `December ${i + 20}`,
-    imageUrl: `/assets/days/day${i + 20}.jpg`,
+    title: "Welcome Krunalkumar Rajdip🙏",
+    imageUrl: "/assets/days/day20.png",
+    text: "Welcome to the team! We look forward to your expertise in integrating security seamlessly into our development and operations processes. Your advocacy for DevSecOps is key to our success!",
+  },
+  {
+    day: 21,
+    type: ContentType.CUSTOM,
+    title: "Welcome Malaluan Rollyn🙏",
+    imageUrl: "/assets/days/day21.png",
+    text: "Welcome to the team! We are excited for your expertise in UX/UI design and look forward to how you'll elevate our digital experiences this year. Your focus on user-centricity is invaluable!",
+  },
+  {
+    day: 22,
+    type: ContentType.CUSTOM,
+    title: "Welcome Mervin Bend🙏",
+    imageUrl: "/assets/days/day22.png",
+    text: "Welcome to the IIoT Chapter! We're thrilled to have a Computer Science working student join us. We look forward to your fresh perspective and contributions to our Industrial IoT projects! 💡💻. We could not find a picture of you, so we hope this picture is a nice representation😅",
+  },
+
+  // {
+  //   day: 24,
+  //   type: ContentType.CUSTOM,
+  //   title: "It is Christmas time!🎄",
+  //   imageUrl: "/assets/days/day24.jpeg",
+  //   text: "Another December another Hub Christmas celebration🥂. Thank you all for sharing food, sweets and nice conversations about your holiday plans. Enjoy the holidays and recharge your batteries for next year🎉",
+  // },
+  //TODO: 23, Welcome to Mervin
+  // Generates placeholders for days 17-24 pointing to local files
+  ...Array.from({ length: 2 }, (_, i) => ({
+    day: i + 23,
+    type: ContentType.CUSTOM,
+    title: `December ${i + 23}`,
+    imageUrl: `/assets/days/day${i + 23}.jpg`,
     text: `A special surprise for day ${
-      i + 20
+      i + 23
     }. The magic of Christmas is in the air!`,
   })),
 ];
