@@ -6,7 +6,7 @@
 export const USE_SIMULATED_DATE = false;
 // If USE_SIMULATED_DATE is true, the app behaves as if it is this day:
 // Format: YYYY-MM-DD
-export const SIMULATED_DATE = '2024-12-22';
+export const SIMULATED_DATE = '2024-12-24';
 
 export const APP_URL = window.location.origin + window.location.pathname;
 

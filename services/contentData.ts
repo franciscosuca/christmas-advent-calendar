@@ -194,23 +194,30 @@ export const calendarContent: DayContent[] = [
     imageUrl: "/assets/days/day22.png",
     text: "Welcome to the IIoT Chapter! We're thrilled to have a Computer Science working student join us. We look forward to your fresh perspective and contributions to our Industrial IoT projects! 💡💻. We could not find a picture of you, so we hope this picture is a nice representation😅",
   },
-
-  // {
-  //   day: 24,
-  //   type: ContentType.CUSTOM,
-  //   title: "It is Christmas time!🎄",
-  //   imageUrl: "/assets/days/day24.jpeg",
-  //   text: "Another December another Hub Christmas celebration🥂. Thank you all for sharing food, sweets and nice conversations about your holiday plans. Enjoy the holidays and recharge your batteries for next year🎉",
-  // },
-  //TODO: 23, Welcome to Mervin
-  // Generates placeholders for days 17-24 pointing to local files
-  ...Array.from({ length: 2 }, (_, i) => ({
-    day: i + 23,
+  {
+    day: 23,
     type: ContentType.CUSTOM,
-    title: `December ${i + 23}`,
-    imageUrl: `/assets/days/day${i + 23}.jpg`,
-    text: `A special surprise for day ${
-      i + 23
-    }. The magic of Christmas is in the air!`,
-  })),
+    title: "DigiVerse🌐",
+    imageUrl: "/assets/days/day23.png",
+    text: "Where can you find trainings, our Digi-portfolio, our digital hub glossary and more❓ If you were thinking about the DigiVerse, then you got it right🎉. Feel free to add the GEA-DigiVerse page (link below) to your favorite tabs or to follow its page on VivaEngage to stay up to date with the latests news about our ♥️Hub.",
+    sourceUrl:
+      "https://geacloud.sharepoint.com/sites/Connect-GEADigital/SitePages/GEA-DigiVerse.aspx",
+  },
+  {
+    day: 24,
+    type: ContentType.CUSTOM,
+    title: "It is Christmas time!🎄",
+    imageUrl: "/assets/days/day24.jpeg",
+    text: "Another December another Hub Christmas celebration🥂. Thank you all for sharing food, sweets and nice conversations about your holiday plans. Enjoy the holidays and recharge your batteries for next year🎉",
+  },
+  // Generates placeholders for days 17-24 pointing to local files
+  // ...Array.from({ length: 2 }, (_, i) => ({
+  //   day: i + 23,
+  //   type: ContentType.CUSTOM,
+  //   title: `December ${i + 23}`,
+  //   imageUrl: `/assets/days/day${i + 23}.jpg`,
+  //   text: `A special surprise for day ${
+  //     i + 23
+  //   }. The magic of Christmas is in the air!`,
+  // })),
 ];
