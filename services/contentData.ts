@@ -207,7 +207,7 @@ export const calendarContent: DayContent[] = [
     day: 24,
     type: ContentType.CUSTOM,
     title: "It is Christmas time!🎄",
-    imageUrl: "/assets/days/day24.jpeg",
+    imageUrl: "/assets/days/day24.JPEG",
     text: "Another December another Hub Christmas celebration🥂. Thank you all for sharing food, sweets and nice conversations about your holiday plans. Enjoy the holidays and recharge your batteries for next year🎉",
   },
   // Generates placeholders for days 17-24 pointing to local files
